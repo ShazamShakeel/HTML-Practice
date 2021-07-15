@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice</title>
+    <meta name="description" content="This File contains all the elements that i learned in HTML">
+</head>
+
+<body>
+
+
+    <header id="header">
+        <h1>This is Heading 1 !</h1>
+        <h2>This is Heading 2 !</h2>
+        <h3>This is Heading 3 !</h3>
+        <h4>This is Heading 4 !</h4>
+        <h5>This is Heading 5 !</h5>
+        <h6>This is Heading 6 !</h6>
+    </header>
+
+
+    <a href="#footer">Go to Footer !</a>
+
+
+    <nav>
+        <ul>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ul>
+        <ol>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ol>
+        <dl>
+            <dt>name</dt>
+            <dd>description</dd>
+        </dl>
+    </nav>
+
+
+    <main>
+        <article>
+            <p><strong><u>Lorem ipsum</u></strong>, <b><del>dolor</del></b> sit<sup>amet</sup> consectetur
+                adipisicing<sub>elit</sub>.<br><em>Excepturi</em>, <i>recusandae</i> modi culpa necessitatibus beatae
+                eius
+                minima voluptates, assumenda perferendis quidem ipsa. Laborum tempore modi quasi sapiente nesciunt
+                veritatis
+                dolor officiis?</p>
+        </article>
+        <hr>
+        <aside>
+            <p><abbr title="World Wide Web">WWW</abbr></p>
+            <p>ABC</p>
+            <blockquote cite="Shazam">Hahahaha</blockquote>
+            <cite>Shazam</cite>
+            <a href="#">This is a Dead Link !</a>
+        </aside>
+        <figure>
+            <img src="https://picsum.photos/seed/picsum/200/300" alt="Mount Everest">
+            <figcaption>This is the photo of a mount.</figcaption>
+        </figure>
+        <picture>
+            <source media="(min-width: 500px)" srcset="https://picsum.photos/400/400">
+            <source media="(min-width: 400px)" srcset="https://picsum.photos/300/300">
+            <source media="(min-width: 300px)" srcset="https://picsum.photos/200/200">
+            <img src="https://picsum.photos/100/100">
+        </picture>
+    </main>
+
+
+    <section>
+        <audio controls autoplay muted>
+            <source src="#" type="mp3">
+        </audio><br>
+        <video controls muted>
+            <source src="#" type="mp4">
+        </video>
+    </section>
+
+
+    <form action="#" method="get">
+        <fieldset>
+            <legend>This is Form !</legend>
+
+
+            <label for="Name">Name</label>
+            <input type="text" id="Name" Name="Name" required><br>
+            <label>
+                Email
+                <input type="email" name="Email" id="email" placeholder="me@example.com">
+            </label><br>
+            <label>
+                Password
+                <input type="password" name="Password" id="password" minlength="6" maxlength="12">
+            </label><br>
+            <label for="date">
+                Date
+            </label>
+            <input type="date" id="date" name="Date"><br>
+            <label for="color">
+                color
+            </label>
+            <input type="color" name="Color" id="color"><br>
+            <label for="time">
+                time
+            </label>
+            <input type="time" name="Time" id="Time"><br>
+            <label for="number">
+                Number
+            </label>
+            <input type="number" name="Number" id="number"><br>
+            <label for="tel">
+                Telephone Number
+            </label>
+            <input type="tel" name="Number" id="number"><br>
+            <label for="URL">
+                URL
+            </label>
+            <input type="url" name="URL" id="URL"><br>
+            <label for="search">
+                Search
+            </label>
+            <input type="search" name="Search" id="search"><br>
+            <label for="gender">
+                Gender
+            </label>
+            <input type="radio" name="Gender" id="gender" value="Male">Male
+            <input type="radio" name="Gender" id="gender" value="Female">Female
+            <br>
+            <label for="fruits">
+                Fruits
+            </label>
+            <input type="checkbox" name="Fruit" id="fruits" value="Apple">Apple
+            <input type="checkbox" name="Fruit" id="fruits" value="Banana">Banana
+            <br>
+            <label for="country">
+                Country
+            </label>
+            <select name="Country" id="country">
+                <option value="Pakistan">Pakistan</option>
+                <option value="China" selected>China</option>
+            </select><br>
+            <label for="languages">
+                Languages
+            </label>
+            <input list="Lang" name="Language" id="language">
+            <datalist id="Lang">
+                <option value="English">English</option>
+                <option value="Urdu">Urdu</option>
+            </datalist><br>
+            <label for="textarea">
+                Comments
+            </label><br>
+            <textarea name="TextArea" id="textarea" cols="30" rows="10" placeholder="Write Here !"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="mailto:me@example.com">Email</a><br>
+    <a href="tel:+1234456789112">Phone</a><br>
+    <footer id="footer">
+        <a href="#header">This is The End</a>
+    </footer>
+</body>
+
+</html>
